@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Embed Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Navbar -->
+  <header class="bg-blue-900 text-white p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Embed Solutions</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#services" class="hover:underline">Services</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+        <a href="#order" class="hover:underline">Order</a>
+        <a href="#enquiry" class="hover:underline">Enquiry</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="text-center py-20 bg-gray-100">
+    <h2 class="text-4xl font-bold mb-4">Empowering Projects. Enabling Careers.</h2>
+    <p class="text-lg">Project Support | Internships | Placement Solutions</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 container mx-auto px-4">
+    <h3 class="text-3xl font-semibold mb-6">About Embed Solutions</h3>
+    <p>
+      Embed Solutions is a project center and placement service provider dedicated to offering top-notch support for academic and industrial training. We focus on helping students and professionals grow through real-world projects, technical workshops, and job placement assistance.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gray-50 container mx-auto px-4">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Our Services</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 shadow rounded-lg">
+        <h4 class="text-xl font-bold mb-2">Academic Projects</h4>
+        <p>Customized final year and mini projects for B.Tech, M.Tech, MCA, and MBA students.</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded-lg">
+        <h4 class="text-xl font-bold mb-2">Internships & Training</h4>
+        <p>Hands-on industrial training in embedded systems, Java and Python.</p>
+      </div>
+      <div class="bg-white p-6 shadow rounded-lg">
+        <h4 class="text-xl font-bold mb-2">Placement Support</h4>
+        <p>Resume building, mock interviews, job referrals, and soft skill development.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section id="order" class="py-16 container mx-auto px-4">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Order Your Project</h3>
+    <form action="mailto:embedsolutions@gmail.com" method="POST" enctype="text/plain" class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow space-y-4">
+      <input type="text" name="Name" placeholder="Your Name" required class="w-full p-2 border rounded" />
+      <input type="email" name="Email" placeholder="Your Email" required class="w-full p-2 border rounded" />
+      <input type="text" name="Course" placeholder="Course (e.g., B.Tech, MCA)" class="w-full p-2 border rounded" />
+      <input type="text" name="Project Title" placeholder="Project Title / Requirement" required class="w-full p-2 border rounded" />
+      <input type="text" name="Technology" placeholder="Preferred Technology (e.g., Python, Java)" class="w-full p-2 border rounded" />
+      <textarea name="Deadline" placeholder="Deadline / Additional Info" rows="3" class="w-full p-2 border rounded"></textarea>
+      <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">Submit Order</button>
+    </form>
+    <div class="text-center mt-6">
+      <a href="https://wa.me/916381108952?text=Hi%2C%20I%20want%20to%20order%20a%20project%20from%20Embed%20Solutions" target="_blank" class="inline-block bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Order via WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Enquiry Section -->
+  <section id="enquiry" class="py-16 container mx-auto px-4">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Project Enquiry</h3>
+    <form action="mailto:embedsolutions@gmail.com" method="POST" enctype="text/plain" class="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow space-y-4">
+      <input type="text" name="Name" placeholder="Your Name" required class="w-full p-2 border rounded" />
+      <input type="email" name="Email" placeholder="Your Email" required class="w-full p-2 border rounded" />
+      <input type="text" name="Phone" placeholder="Phone Number" required class="w-full p-2 border rounded" />
+      <textarea name="Message" placeholder="Your enquiry about projects..." rows="4" class="w-full p-2 border rounded"></textarea>
+      <button type="submit" class="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800">Submit Enquiry</button>
+    </form>
+    <div class="text-center mt-6">
+      <a href="https://wa.me/916381108952?text=Hi%2C%20I%20have%20a%20project%20enquiry%20for%20Embed%20Solutions" target="_blank" class="inline-block bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Enquire via WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 container mx-auto px-4">
+    <h3 class="text-3xl font-semibold mb-6 text-center">Contact Us</h3>
+    <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow">
+      <p class="mb-2"><strong>Phone:</strong> <a href="tel:+916381108952" class="text-blue-700">+91 63811 08952</a></p>
+      <p class="mb-2"><strong>Email:</strong> <a href="mailto:embedsolutions@gmail.com" class="text-blue-700">embedsolutions@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white text-center py-4">
+    &copy; 2025 Embed Solutions. All rights reserved.
+  </footer>
+</body>
+</html>
